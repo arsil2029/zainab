@@ -1,0 +1,178 @@
+/* font-family: 'Mukta', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.margin{
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.head
+{
+    background: url(img/hero.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    
+}
+ .head .headcon
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+ 
+.head .headcon .content h2
+{
+    word-spacing: 2px;
+    font-size: 40px;
+    font-weight: 600; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+} 
+
+.head .headcon .content span
+{
+    /* width: 450px; */
+    display: block;
+    padding-bottom: 10px;
+    font-size: 25px; 
+    font-weight: 100;
+    display: flex;  
+    justify-content: center;
+    align-items: center;     
+    position: relative; 
+}
+.head .headcon .content span::after
+{
+    content: "";
+    height: 30px;
+    width: 430px;
+    background-color: transparent;
+    border-bottom:2px solid #fff;
+    position: absolute;
+    bottom: 5px;
+    
+}
+.head .headcon .content p 
+{
+    word-spacing: 3px;
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* .nevigation
+{
+    
+} */
+.nevigation .nevigationcon
+{
+    display: flex;
+    background: #196fc0;
+    /* padding: 20px 0px; */
+}
+.nevigation .nevigationcon .logo
+{
+    background: #004b91;
+    text-align: right;
+}
+.nevigation .nevigationcon .logo h2
+{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-family: 'Raleway'sans-serif;
+}
+.nevigation .nevigationcon .tooggle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+/* .nevigation .nevigationcon .tooggle span
+{
+    padding: 15px 10px;
+    background: #004b91;
+    transition: all 0.5s;
+} */
+
+.nevigation .nevigationcon .tooggle span ion-icon 
+{
+    display: block;
+    margin: -17px 0;
+    font-size: 25px;
+    transition:  2s;
+    /* transform: rotate(45deg); */
+   
+}
+
+.nevigation .nevigationcon .nevi 
+{
+   text-align: right;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.nevigation .nevigationcon .nevi ul
+{
+    margin: 0;
+}
+.nevigation .nevigationcon .nevi ul li
+{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;    
+}
+.nevigation .nevigationcon .nevi ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    padding-bottom: 19px;
+    transition: 0.5s;
+    /* border-bottom: 3px solid #fff; */
+}
+.nevigation .nevigationcon .nevi ul li .active
+{
+    border-bottom: 3px solid #fff;
+}
+.nevigation .nevigationcon .nevi ul li a:hover
+{
+    border-bottom: 3px solid #fff;
+}
+
+
+
+/* font-family: 'Mukta', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
